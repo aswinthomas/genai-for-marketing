@@ -132,7 +132,7 @@ export PROJECT_ID=<CHANGE TO YOUR PROJECT ID>
 > gcloud auth application-default login
 
  - Set the Quota Project
-> gcloud auth application-default $PROJECT_ID
+> gcloud auth application-default set-quota-project $PROJECT_ID
 
 
 ### 4- Clone the Gen AI for Marketing repository
